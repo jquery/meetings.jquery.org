@@ -1,0 +1,56 @@
+<div dir="ltr">
+<p class=""><b><span style="font-size:24pt;font-family:Arial;color:black">March 14, 2013</span></b><span style="font-size:11.5pt;font-family:Arial;color:black"><br>
+Location: #jquery-meeting on Freenode<br>
+Attending: James, Scott, </span><span style="font-size:11.5pt;font-family:Arial;color:rgb(51,51,51);background-color:white">Ghislain</span><span style="font-size:11.5pt;font-family:Arial;color:black">, Jörn, Richard, Timo</span></p>
+<p>Time: 11am ET (16:00 UTC)</p>
+<p></p>
+<ul type="disc">
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">QUnit</span></li>
+<ul type="circle">
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">qunit-reporter-junit in its own<br>
+repo, running current grunt, built by Travis-CI</span></li>
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">composite addon updated in master<br>
+( <a href="https://github.com/jquery/qunit/pull/408">https://github.com/jquery/qunit/pull/408</a><br>
+), James will move to its own repo soon</span></li>
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">Discussing replacing callbacks<br>
+with events: <a href="https://github.com/jquery/qunit/issues/422">https://github.com/jquery/qunit/issues/422</a><br>
+- Timo to work on that</span></li>
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">Refactored assertion addons, add<br>
+assertions to QUnit.assert ( <a href="https://github.com/jquery/qunit/pull/418">https://github.com/jquery/qunit/pull/418</a><br>
+)</span></li>
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">Update QUnit to grunt 0.4 ( <a href="https://github.com/jquery/qunit/pull/423">https://github.com/jquery/qunit/pull/423</a><br>
+)</span></li>
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">add-on vs plugin vs extension?<br>
+Let’s go with <b>plugin</b>. And publish them to npm.</span></li>
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">Browser support for QUnit ( <a href="https://github.com/jquery/qunit/issues/412">https://github.com/jquery/qunit/issues/412</a> ) vs<br>
+plugins? Should they match? Will jQuery 1.x support IE6 forever?</span></li>
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">We’ll keep the PhantomJS plugin: <a href="https://github.com/jquery/qunit/issues/420#issuecomment-14909617">https://github.com/jquery/qunit/issues/420#issuecomment-14909617</a></span></li>
+</ul>
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">Jenkins/Travis</span></li>
+<ul type="circle">
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">We’d like to run `grunt` for all<br>
+PRs – Travis makes this really easy, mergatron should do it, too.</span></li>
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">We want TestSwarm for regular<br>
+commits, this won’t work with Travis, since it can’t expose confidential<br>
+credentials to PR committers.</span></li>
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">TODO: Add a few more projects to<br>
+Travis, gives us basic testing for PRs</span></li>
+<ul type="square">
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">travis.yml to init/update<br>
+submodules, npm install -g grunt-cli</span></li>
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">npm install &amp;&amp; npm test<br>
+is done on travis by default</span></li>
+</ul>
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">We can use that at least until<br>
+mergatron can do it better.</span></li>
+</ul>
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">TestSwarm</span></li>
+<ul type="circle">
+<li class="" style="color:black;vertical-align:baseline"><span style="font-size:11.5pt;font-family:Arial">projects update shelved for a<br>
+week, until higher priority issues are resolved (infrastructure,<br>
+BrowserStack)</span></li>
+</ul>
+</ul>
+<p class=""><span style="font-size:10pt;font-family:Times">&nbsp;</span></p>
+<p class="">&nbsp;</p>
+</div>

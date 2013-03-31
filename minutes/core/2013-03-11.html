@@ -1,0 +1,70 @@
+<p><strong><strong>March 11, 2013<br>
+Minutes (Notes) of the meeting of jQuery<br>
+Location: #jquery-meeting on Freenode<br>
+Attending: DaveMethvin, timmywil, mikesherov, rwaldron, orkel<br>
+Time: Noon ET</strong></strong></p><strong><strong>
+<p>Official Agenda:</p>
+</strong></strong><p><strong><strong></strong></strong></p>
+<ul>
+<li dir="ltr">jQuery 2.0 Final</li>
+<ul>
+<li dir="ltr">Ship for jQuery Uk (April 19)?</li>
+<li dir="ltr">Stuff to be ironed out</li>
+<ul>
+<li dir="ltr">.data() implementation</li>
+<li dir="ltr">Use in node.js</li>
+<li dir="ltr">other?</li>
+<li dir="ltr">Sizzle ticket <a href="https://github.com/jquery/sizzle/pull/193">https://github.com/jquery/sizzle/pull/193</a></li>
+<ul>
+<li dir="ltr">Timmy will land</li>
+</ul>
+</ul>
+</ul>
+<li dir="ltr">jQuery 1.10</li>
+<ul>
+<li dir="ltr">Hard to move quickly on this, we’ve given zero notice</li>
+<li dir="ltr">Need to publicize changes (next bullet) and do a blog post</li>
+<ul>
+<li dir="ltr">Dave to do blog post ASAP</li>
+</ul>
+<li dir="ltr">Ship a month or two after 2.0? — mid-June would be Portland</li>
+</ul>
+<li dir="ltr">(Add these to Migrate Plugin and document NOW for 2.0/1.10 release)</li>
+<ul>
+<li dir="ltr">No script execute by default, must use $.parseHTML</li>
+<ul>
+<li dir="ltr">Groundwork for XSS reduction, but not a complete fix atm</li>
+<li dir="ltr">This would make the no-leading-space restriction unnecessary?</li>
+</ul>
+<li dir="ltr"><a href="http://bugs.jquery.com/ticket/13417">http://bugs.jquery.com/ticket/13417</a> domManip and empty text nodes</li>
+<li dir="ltr"><a href="http://bugs.jquery.com/ticket/12838">http://bugs.jquery.com/ticket/12838</a> &nbsp;$.ajax hook point for domManip</li>
+<li dir="ltr">change Event.isTrigger from boolean to bitmask</li>
+<li dir="ltr">allow multiple args for .replaceWith (<a href="https://github.com/jquery/jquery/pull/1163#commitcomment-2582368">ref</a>)</li>
+</ul>
+<li dir="ltr">jQuery 1.9.2 — Do we need one? (Doesn’t seem so, none scheduled)</li>
+<li dir="ltr">Documentation Day</li>
+<ul>
+<li dir="ltr">Tuesday March 12 8pm Eastern time #jquery-dev</li>
+<li dir="ltr">Can we get the team together virtually to knock down the docs issues?</li>
+<ul>
+<li dir="ltr"><a href="https://github.com/jquery/api.jquery.com/issues">https://github.com/jquery/api.jquery.com/issues</a></li>
+<li dir="ltr">Move upgrade guide issues to api.jquery.com</li>
+<li dir="ltr"></li>
+</ul>
+<li dir="ltr">Document treatment of various node types ‘n stuff wrapped by jQuery</li>
+<ul>
+<li dir="ltr">What can be put in a set?</li>
+<li dir="ltr">What methods work with it?</li>
+</ul>
+</ul>
+<li dir="ltr">bugs.jquery.com</li>
+<ul>
+<li dir="ltr">New home page to improve people’s reporting — on Dave’s plate</li>
+<li dir="ltr">e.g., docs issues go to api.jquery.com</li>
+</ul>
+<li dir="ltr">Open tickets triage</li>
+<ul>
+<li dir="ltr">http://bugs.jquery.com/query?status=new&amp;report=505&amp;order=priority</li>
+<li></li>
+</ul>
+</ul>
