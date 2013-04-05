@@ -53,7 +53,13 @@ grunt.registerMultiTask( "build-minutes", "Process html and markdown files as me
 		task = this,
 		taskDone = task.async(),
 		files = this.data,
-		targetDir = grunt.config( "wordpress.dir" ) + "/posts/post/";
+		targetDir = grunt.config( "wordpress.dir" ) + "/posts/post/",
+		taxonomies = grunt.file.readJSON( "taxonomies.json" ),
+		teamNames = {};
+
+	taxonomies.category.forEach(function( category ) {
+		teamNames[ category.slug ] = category.name;
+	});
 
 	grunt.file.mkdir( targetDir );
 
@@ -70,11 +76,7 @@ grunt.registerMultiTask( "build-minutes", "Process html and markdown files as me
 			// Slice off the "DAY " from the date string
 			postDateString = postDate.toDateString().slice( 4 ),
 			targetFileName = targetDir + postDateSlug + "-" + categorySlug + ".html",
-			// TODO: Remove this hack of faking the team name by toUpperCase-ing the
-			// first character in the slug. Get the real name from taxonomies.json
-			teamName = "jQuery " +
-				categorySlug.charAt( 0 ).toUpperCase() + categorySlug.slice( 1 ) +
-				" Team";
+			teamName = teamNames[ categorySlug ];
 
 		grunt.verbose.write( "Processing " + fileName + "..." );
 
