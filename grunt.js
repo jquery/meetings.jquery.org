@@ -58,7 +58,7 @@ grunt.registerMultiTask( "build-minutes", "Process html and markdown files as me
 		teamNames = {};
 
 	taxonomies.category.forEach(function( category ) {
-		teamNames[ category.slug ] = category.name;
+		teamNames[ category.slug ] = "jQuery " + category.name;
 	});
 
 	grunt.file.mkdir( targetDir );
