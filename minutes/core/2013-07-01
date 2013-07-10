@@ -1,0 +1,38 @@
+Attending: DaveMethvin, timmywil, jaubourg, orkel
+
+## Node and other non-browser setup
+* https://github.com/jquery/api.jquery.com/issues/296
+* Where do we document window requirement in Node environment?
+  - Several other "non-API" issues like that
+  - Get Karl’s input on adding a new page
+
+## Tagging Sizzle
+* Tag before jQuery release
+  - http://bugs.jquery.com/ticket/14087
+
+## jQuery 1.10.2
+* IE7 and `type` attribute (open)
+  - http://bugs.jquery.com/ticket/13976
+  - needs a change so no exception is thrown
+
+## jQuery 2.0.3
+* Garbage HTML throws an exception
+  - https://github.com/jquery/jquery/pull/1284
+  - http://bugs.jquery.com/ticket/13976
+* jQuery.data with hyphenated names LANDED
+  - http://bugs.jquery.com/ticket/14047
+  - https://github.com/jquery/jquery/pull/1293
+
+## 1.10.2/2.0.3
+* IE cross-frame (LANDED)
+  - http://bugs.jquery.com/ticket/13980 
+* Chrome Canary STUPID deprecation warn on //@
+  - http://bugs.jquery.com/ticket/13983
+  - Not now, will change when //# lands in stable browsers
+
+## Release dates?
+* Tomorrow for both
+
+## Followup for 1.11/2.1 issues discussed at in-person Portland
+* Dave to send email with agenda based on meeting notes
+* Discuss in meeting next Monday, or add notes if you can't make it to the meeting
