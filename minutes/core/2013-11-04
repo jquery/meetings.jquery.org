@@ -1,0 +1,52 @@
+Attending: DaveMethvin, gibson042, markelog
+
+## Beta2 Thursday?
+## jQuery 1.11/2.1 beta2 TODOs
+* Need to get done before we ship (this week)
+* http://bugs.jquery.com/ticket/14180 - dmethvin
+  - Patch doesn't work on Opera 12
+  - Do we still support Opera 12? markelog and m_gol vote yes
+  - If so, I will skip the test
+* http://bugs.jquery.com/ticket/14415
+  - Move sourceMap comment to end of the file to simplify
+  - For beta2, remove comment from RELEASE .min.js file
+  - Custom builds will still have the map comment
+  - Remove .js reference from .min.map file - yes (dmethvin)
+  - Tell people to add their own comment at the end
+* http://bugs.jquery.com/ticket/14340 - m_gol
+* http://bugs.jquery.com/ticket/14207 - jaubourg
+* http://bugs.jquery.com/ticket/14424 - jaubourg
+* http://bugs.jquery.com/ticket/14475 - jaubourg
+
+## Vagrant - gnarf to keep an eye on it
+* http://bugs.jquery.com/ticket/14488
+* https://github.com/jquery/jquery/pull/1410
+* Dave asking status on the PR 
+
+## Other tickets (for the beta)? Who can take them?
+* http://bugs.jquery.com/ticket/14484
+* data()-related tickets
+  - http://bugs.jquery.com/ticket/14101 gnarf
+  - http://bugs.jquery.com/ticket/14376 rwaldron
+  - http://bugs.jquery.com/ticket/14459 gibson042
+
+## Commit message style:
+* https://github.com/jquery/contribute.jquery.org/pull/61
+* Should we subscribe to some variant of this? Seems that we should, I've just been lazy about consistency.
+* Please add your thoughts/comments there, let's see if we can have a project-wide standard
+
+## JSCS - markelog to land
+* https://github.com/jquery/jquery/pull/1396
+* Any problems with landing this now?
+
+## CSP - markelog to land
+* https://github.com/jquery/jquery/pull/1413
+
+## jQuery Migrate
+* http://swarm.jquery.org/project/jquerymigrate
+* Should we add Bower support here as well?
+
+## jQuery 1.11/2.1 final changes to release script (timmywil)
+* http://bugs.jquery.com/ticket/14451
+* Need to update build script to create tagged headless commit for release
+* Should include bower deps and built file for simplicity
