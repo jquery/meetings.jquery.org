@@ -86,7 +86,7 @@ grunt.registerMultiTask( "build-minutes", "Process html and markdown files as me
 
 			// Convert markdown to HTML
 			if ( fileType === "md" ) {
-				content = grunt.helper( "parse-markdown", content, post.toc );
+				content = grunt.helper( "parse-markdown", content, {} );
 				delete post.toc;
 			}
 
