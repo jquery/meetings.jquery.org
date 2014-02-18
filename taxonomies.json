@@ -19,6 +19,11 @@
 			"name": "UI Team",
 			"slug": "ui",
 			"description": "Minutes from jQuery UI Team meetings"
+		},
+		{
+			"name": "Ecma/TC39",
+			"slug": "tc39",
+			"description": "Minutes from Ecma/TC39 meetings, recorded by jQuery representatives"
 		}
 	]
 }
