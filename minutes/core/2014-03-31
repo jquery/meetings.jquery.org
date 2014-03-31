@@ -1,0 +1,23 @@
+Attending: DaveMethvin, m_gol, timmywil, markelog
+
+## 1.11.1 / 2.1.1
+* Bugs or feedback since release?
+* Open tickets
+ - http://bugs.jquery.com/query?status=%21closed&status=%21pending&group=milestone&report=3&order=priority
+
+## Forum thread: http://forum.jquery.com/topic/matchers-and-pseudos
+ * timmywil and/or gibson042 comment?
+  - isn’t this just https://github.com/jquery/sizzle/issues/254?
+  - yes, i think it is!
+
+## http://bugs.jquery.com/ticket/1477
+* May be a cantfix
+* I hate focus issues. A LOT.
+
+## Karma
+* markelog finishing this up soon
+
+## Browser support
+* m_gol to add iOS6 and Android 4.0+ to support page
+* Need to fix Android 2.3 on unit tests
+* Need a solution for WWA support to avoid regressions!
