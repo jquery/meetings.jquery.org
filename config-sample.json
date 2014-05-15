@@ -1,5 +1,5 @@
 {
-	"url": "local.meetings.jquery.org",
+	"url": "vagrant.meetings.jquery.org",
 	"username": "admin",
 	"password": "secret"
 }
