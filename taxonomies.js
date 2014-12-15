@@ -8,9 +8,19 @@ var agendas = {
 	taxonomies = {
 		"category": [
 			{
+				"name": "Chassis Team",
+				"slug": "chassis",
+				"description": "Minues from Chassis Team meetings"
+			},
+			{
 				"name": "Core Team",
 				"slug": "core",
 				"description": "Minutes from jQuery Core Team meetings"
+			},
+			{
+				"name": "Ecma/TC39",
+				"slug": "tc39",
+				"description": "Minutes from Ecma/TC39 meetings, recorded by jQuery representatives"
 			},
 			{
 				"name": "Mobile Team",
@@ -26,11 +36,6 @@ var agendas = {
 				"name": "UI Team",
 				"slug": "ui",
 				"description": "Minutes from jQuery UI Team meetings"
-			},
-			{
-				"name": "Ecma/TC39",
-				"slug": "tc39",
-				"description": "Minutes from Ecma/TC39 meetings, recorded by jQuery representatives"
 			}
 		]
 	};

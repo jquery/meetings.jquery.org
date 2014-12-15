@@ -33,6 +33,7 @@ jqueryContent.postPreprocessors.post = (function() {
 		// Most meetings happen in the middle of the day, not the middle of the night
 		// Adding 12hrs fixes off-by-one error after time zone adjusts from GMT to local
 		postHourUTC = {
+			chassis: 19,
 			content: 19,
 			core: 18,
 			events: 19,
