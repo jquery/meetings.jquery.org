@@ -1,4 +1,5 @@
-var jqueryContent = require( "grunt-jquery-content" );
+var jqueryContent = require( "grunt-jquery-content" ),
+	taxonomies = require( "./taxonomies" );
 
 module.exports = function( grunt ) {
 
@@ -20,12 +21,14 @@ grunt.initConfig({
 });
 
 grunt.registerTask( "build-categories", function() {
-	grunt.file.copy( "taxonomies.json", grunt.config( "wordpress.dir" ) + "/taxonomies.json" );
+	grunt.file.write(
+		grunt.config( "wordpress.dir" ) + "/taxonomies.json",
+		JSON.stringify( taxonomies )
+	);
 });
 
 jqueryContent.postPreprocessors.post = (function() {
-	var taxonomies = grunt.file.readJSON( "taxonomies.json" ),
-		teamNames = {},
+	var teamNames = {},
 
 		// Most meetings happen in the middle of the day, not the middle of the night
 		// Adding 12hrs fixes off-by-one error after time zone adjusts from GMT to local
