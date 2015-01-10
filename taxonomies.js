@@ -4,7 +4,7 @@ var agendas = {
 		infrastructure: "https://docs.google.com/document/d/1JUfGj8dQH3Q4JoBOlNnfDFrESzMt6LhktXsmtPYocXI",
 		ui: "https://docs.google.com/spreadsheets/d/1E4ieJTELlFeUo9ycooPTqWv0gtIt-44T-47Y2F_100U",
 		testing: "https://docs.google.com/document/d/13FbWhiFQ9gWQvB1Tm4QM_OC4me-ha2ujDWH5sdF7ueo",
-		mobile: "https://docs.google.com/spreadsheet/ccc?key=0AskujzE4Ig0QdG5nSmZiSUhjYm4ya29CdjhLZmJwSWc&usp=drive_web"
+		mobile: "https://docs.google.com/spreadsheets/d/1xGEVtftLDEHAA37YYlA23J_EZwIRyMUaseBY790byPM/"
 	},
 	taxonomies = {
 		"category": [
