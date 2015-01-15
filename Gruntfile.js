@@ -28,20 +28,7 @@ grunt.registerTask( "build-categories", function() {
 });
 
 jqueryContent.postPreprocessors.post = (function() {
-	var teamNames = {},
-
-		// Most meetings happen in the middle of the day, not the middle of the night
-		// Adding 12hrs fixes off-by-one error after time zone adjusts from GMT to local
-		postHourUTC = {
-			chassis: 19,
-			content: 19,
-			core: 18,
-			events: 19,
-			infrastructure: 20,
-			mobile: 20,
-			testing: 17,
-			ui: 18
-		};
+	var teamNames = {};
 
 	taxonomies.category.forEach(function( category ) {
 		teamNames[ category.slug ] = "jQuery " + category.name;
@@ -50,7 +37,7 @@ jqueryContent.postPreprocessors.post = (function() {
 	return function( post, postPath, callback ) {
 		var categorySlug = postPath.replace( /^.+?.+\/(.+)\/(.+)\.\w+$/, "$1" ),
 			postDateSlug = postPath.replace( /^.+?.+\/(.+)\/(.+)\.\w+$/, "$2" ),
-			postDate = new Date( postDateSlug + "T" + postHourUTC[ categorySlug ] + ":00" ),
+			postDate = new Date( postDateSlug + " 12:00:00"),
 
 			// Slice off the "DAY " from the date string
 			postDateString = postDate.toDateString().slice( 4 ),
