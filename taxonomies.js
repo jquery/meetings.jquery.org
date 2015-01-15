@@ -4,14 +4,20 @@ var agendas = {
 		infrastructure: "https://docs.google.com/document/d/1JUfGj8dQH3Q4JoBOlNnfDFrESzMt6LhktXsmtPYocXI",
 		ui: "https://docs.google.com/spreadsheets/d/1E4ieJTELlFeUo9ycooPTqWv0gtIt-44T-47Y2F_100U",
 		testing: "https://docs.google.com/document/d/13FbWhiFQ9gWQvB1Tm4QM_OC4me-ha2ujDWH5sdF7ueo",
-		mobile: "https://docs.google.com/spreadsheets/d/1xGEVtftLDEHAA37YYlA23J_EZwIRyMUaseBY790byPM/"
+		mobile: "https://docs.google.com/spreadsheets/d/1xGEVtftLDEHAA37YYlA23J_EZwIRyMUaseBY790byPM/",
+		content: "https://docs.google.com/spreadsheets/d/1pJhQj3Nn-5rdmqocN9NKP8CpnC4Z42TRAvNC3SJLj3o/"
 	},
 	taxonomies = {
 		"category": [
 			{
 				"name": "Chassis Team",
 				"slug": "chassis",
-				"description": "Minues from Chassis Team meetings"
+				"description": "Minutes from Chassis Team meetings"
+			},
+			{
+				"name": "Content Team",
+				"slug": "content",
+				"description": "Minutes from jQuery Content Team meetings"
 			},
 			{
 				"name": "Core Team",
