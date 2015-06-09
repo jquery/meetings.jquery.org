@@ -16,12 +16,12 @@ var agendas = {
 				"description": "Minutes from Chassis Team meetings"
 			},
 			{
-				"name": "Content Team",
+				"name": "jQuery Content Team",
 				"slug": "content",
 				"description": "Minutes from jQuery Content Team meetings"
 			},
 			{
-				"name": "Core Team",
+				"name": "jQuery Core Team",
 				"slug": "core",
 				"description": "Minutes from jQuery Core Team meetings"
 			},
@@ -31,7 +31,7 @@ var agendas = {
 				"description": "Minutes from Ecma/TC39 meetings, recorded by jQuery representatives"
 			},
 			{
-				"name": "Mobile Team",
+				"name": "jQuery Mobile Team",
 				"slug": "mobile",
 				"description": "Minutes from jQuery Mobile Team meetings"
 			},
@@ -46,7 +46,7 @@ var agendas = {
 				"description": "Minutes from jQuery Testing Team meetings"
 			},
 			{
-				"name": "UI Team",
+				"name": "jQuery UI Team",
 				"slug": "ui",
 				"description": "Minutes from jQuery UI Team meetings"
 			}
