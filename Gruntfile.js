@@ -31,7 +31,7 @@ jqueryContent.postPreprocessors.post = (function() {
 	var teamNames = {};
 
 	taxonomies.category.forEach(function( category ) {
-		teamNames[ category.slug ] = "jQuery " + category.name;
+		teamNames[ category.slug ] = category.name;
 	});
 
 	return function( post, postPath, callback ) {
