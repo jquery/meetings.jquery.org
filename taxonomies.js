@@ -41,6 +41,11 @@ var agendas = {
 				"description": "Minutes from PEP Team meetings"
 			},
 			{
+				"name": "Project Leads",
+				"slug": "project-leads",
+				"description": "Minutes from Project Leads meetings"
+			},
+			{
 				"name": "Testing Team",
 				"slug": "testing",
 				"description": "Minutes from jQuery Testing Team meetings"
