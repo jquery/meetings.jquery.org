@@ -3,6 +3,7 @@ var agendas = {
 		content: "https://docs.google.com/document/d/10BtIFF5R_djDCAtwJQiIxy3oOxdQeyrogWFoSvybFHA",
 		core: "https://docs.google.com/document/d/1uhcW9_TlSwD8JnO1_HNnSYJAriTK9WYZ8uQNDvtAAhA",
 		infrastructure: "https://docs.google.com/document/d/1JUfGj8dQH3Q4JoBOlNnfDFrESzMt6LhktXsmtPYocXI",
+		"js-reporters": "https://docs.google.com/document/d/1dq_2Asse7r7598WV2khJnbXf1KQ2tkEWtJiuBhzJ63Q",
 		mobile: "https://docs.google.com/spreadsheets/d/11-mngR57h54cIOjGDE2Z6LjaiyRgDwlcvKUzZn2Fw6M",
 		pep: "https://docs.google.com/document/d/1nmk0W43PzkG5RNbJu9oEZv5f-5KWeJo5z22kza6q2AM",
 		testing: "https://docs.google.com/document/d/13FbWhiFQ9gWQvB1Tm4QM_OC4me-ha2ujDWH5sdF7ueo",
@@ -34,6 +35,11 @@ var agendas = {
 				"name": "jQuery Mobile Team",
 				"slug": "mobile",
 				"description": "Minutes from jQuery Mobile Team meetings"
+			},
+			{
+				"name": "js-reporters Team",
+				"slug": "js-reporters",
+				"description": "Minutes from js-reporters Team meetings"
 			},
 			{
 				"name": "PEP Team",
