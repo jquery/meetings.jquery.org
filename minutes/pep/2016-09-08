@@ -1,0 +1,7 @@
+* Need clarification on spec wording of "the element with the default touch behavior" for `touch-action`.
+  * For the common case of scrolling it's pretty simple - just walk up until you hit a scroller.
+  * If you add an overflow:scroll element as a descendant of a touch-action:none region, you should get scrolling back (consider component composition scenarios).
+  * As you walk up the ancestor chain, you're intersecting all the touch-actions.
+  * Chrome implementation for `touch-action` detection: https://cs.chromium.org/chromium/src/third_party/WebKit/Source/core/input/TouchActionUtil.cpp?q=computeEffectiveTouchAction&sq=package:chromium&l=47&dr=CSs
+* It’s not worth adding the passive event listeners because Safari will end up being the only browser without native PointerEvents and it doesn’t have native support for all `touch-action` values.
+* There’s nothing holding up the 0.4.2 release at this point.
