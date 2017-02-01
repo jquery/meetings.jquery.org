@@ -1,0 +1,39 @@
+* Ticket triage	
+	* 453 tickets total, +3
+	* 14 pull requests, -3
+* Datepicker	
+	* Strange iOS 10 behavior
+  	* https://bugs.jqueryui.com/ticket/15050
+	  * Alex to look into this bug
+	* Need to add the date to the `select` and `change` events
+	  * Felix submitted a PR
+	  * https://github.com/jquery/jquery-ui/pull/1786
+	  * merged
+	* Jon Gunderson pointed out that `aria-hidden` on the grid cells is hiding the calendar from AT
+	  * Felis submitted a PR to remove `aria-hidden`
+	  * https://github.com/jquery/jquery-ui/pull/1788
+	  * merged
+	* `numberOfMonths` could not be changed after initialization
+	  * Felix submitted a PR
+	  * https://github.com/jquery/jquery-ui/pull/1787
+	  * merged
+	* Jon Gunderson will do another accessiblity review of datepicker/calendar
+* Releases	
+	* Request to add jQuery as a dependency in `package.json`
+	  * https://github.com/jquery/jquery-ui/pull/1779
+	  * Added jQuery as a dependency
+  * Release 1.12.2 when blockers are fixed
+	* Missing minified widget files in distributions
+	  * https://bugs.jqueryui.com/ticket/15089
+* Resizable	
+	* Custom handles get removed on update
+	  * https://bugs.jqueryui.com/ticket/15084
+	  * Scott will look into this	
+* Button	
+	* Compatibility layer for checkboxradio causes error
+	  * https://bugs.jqueryui.com/ticket/15109
+	  * Alex to fix
+* Download Builder	
+	* Still having issues with Vader theme
+	  * https://github.com/jquery/download.jqueryui.com/issues/338
+	  * Scott to update the builder to use the settings from his modified theme
