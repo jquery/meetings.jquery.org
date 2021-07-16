@@ -1,7 +1,7 @@
 var agendas = {
 		chassis: "https://docs.google.com/spreadsheets/d/1FUdRcAq2d8njs8KAcfQmEyoZL74SXLsLp1rtc7E9z_I",
 		content: "https://docs.google.com/document/d/10BtIFF5R_djDCAtwJQiIxy3oOxdQeyrogWFoSvybFHA",
-		core: "https://docs.google.com/document/d/1uhcW9_TlSwD8JnO1_HNnSYJAriTK9WYZ8uQNDvtAAhA",
+		core: "https://docs.google.com/document/d/1Gt_NE9tR1sgpZd_L1Az56WsYrZ9v4rKS-mqxTe1lf8s",
 		infrastructure: "https://docs.google.com/document/d/1JUfGj8dQH3Q4JoBOlNnfDFrESzMt6LhktXsmtPYocXI",
 		"js-reporters": "https://docs.google.com/document/d/1dq_2Asse7r7598WV2khJnbXf1KQ2tkEWtJiuBhzJ63Q",
 		mobile: "https://docs.google.com/spreadsheets/d/11-mngR57h54cIOjGDE2Z6LjaiyRgDwlcvKUzZn2Fw6M",
