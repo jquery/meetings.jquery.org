@@ -6,9 +6,6 @@
 // - jQuery Mobile Team
 //   2016-2017: https://docs.google.com/spreadsheets/d/11-mngR57h54cIOjGDE2Z6LjaiyRgDwlcvKUzZn2Fw6M
 //
-// - jQuery Testing Team
-//   2012-2016: https://docs.google.com/document/d/13FbWhiFQ9gWQvB1Tm4QM_OC4me-ha2ujDWH5sdF7ueo
-//
 // - jQuery UI Team
 //   2016: https://docs.google.com/spreadsheets/d/18JaqyU8wPJtn0HB9g7DpUiocZo8YC2p7MDovhcFZqzE
 
