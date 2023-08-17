@@ -1,14 +1,17 @@
-var agendas = {
-		chassis: "https://docs.google.com/spreadsheets/d/1FUdRcAq2d8njs8KAcfQmEyoZL74SXLsLp1rtc7E9z_I",
-		content: "https://docs.google.com/document/d/10BtIFF5R_djDCAtwJQiIxy3oOxdQeyrogWFoSvybFHA",
-		core: "https://docs.google.com/document/d/1Gt_NE9tR1sgpZd_L1Az56WsYrZ9v4rKS-mqxTe1lf8s",
-		infrastructure: "https://docs.google.com/document/d/1JUfGj8dQH3Q4JoBOlNnfDFrESzMt6LhktXsmtPYocXI",
-		"js-reporters": "https://docs.google.com/document/d/1dq_2Asse7r7598WV2khJnbXf1KQ2tkEWtJiuBhzJ63Q",
-		mobile: "https://docs.google.com/spreadsheets/d/11-mngR57h54cIOjGDE2Z6LjaiyRgDwlcvKUzZn2Fw6M",
-		pep: "https://docs.google.com/document/d/1nmk0W43PzkG5RNbJu9oEZv5f-5KWeJo5z22kza6q2AM",
-		testing: "https://docs.google.com/document/d/13FbWhiFQ9gWQvB1Tm4QM_OC4me-ha2ujDWH5sdF7ueo",
-		ui: "https://docs.google.com/spreadsheets/d/18JaqyU8wPJtn0HB9g7DpUiocZo8YC2p7MDovhcFZqzE"
-	},
+// Archived:
+//
+// - jQuery Infrastructure Team
+//   2012-2013: https://docs.google.com/document/d/1JUfGj8dQH3Q4JoBOlNnfDFrESzMt6LhktXsmtPYocXI
+//
+// - jQuery Mobile Team
+//   2016-2017: https://docs.google.com/spreadsheets/d/11-mngR57h54cIOjGDE2Z6LjaiyRgDwlcvKUzZn2Fw6M
+//
+// - jQuery Testing Team
+//   2012-2016: https://docs.google.com/document/d/13FbWhiFQ9gWQvB1Tm4QM_OC4me-ha2ujDWH5sdF7ueo
+//
+// - jQuery UI Team
+//   2016: https://docs.google.com/spreadsheets/d/18JaqyU8wPJtn0HB9g7DpUiocZo8YC2p7MDovhcFZqzE
+
 	taxonomies = {
 		"category": [
 			{
@@ -19,7 +22,8 @@ var agendas = {
 			{
 				"name": "jQuery Content Team",
 				"slug": "content",
-				"description": "Minutes from jQuery Content Team meetings"
+				"description": "Minutes from jQuery Content Team meetings" +
+					'<br><a href="https://docs.google.com/document/d/10BtIFF5R_djDCAtwJQiIxy3oOxdQeyrogWFoSvybFHA">View meeting notes</a>'
 			},
 			{
 				"name": "jQuery Core Team",
@@ -63,12 +67,5 @@ var agendas = {
 			}
 		]
 	};
-
-taxonomies.category.forEach(function( category ) {
-	var agenda = agendas[ category.slug ];
-	if ( agenda ) {
-		category.description += "<br><a href=\"" + agenda + "\">View meeting agenda</a>";
-	}
-});
 
 module.exports = taxonomies;
