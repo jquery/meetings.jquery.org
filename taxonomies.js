@@ -19,8 +19,7 @@
 			{
 				"name": "jQuery Content Team",
 				"slug": "content",
-				"description": "Minutes from jQuery Content Team meetings" +
-					'<br><a href="https://docs.google.com/document/d/10BtIFF5R_djDCAtwJQiIxy3oOxdQeyrogWFoSvybFHA">View meeting notes</a>'
+				"description": "Minutes from jQuery Content Team meetings"
 			},
 			{
 				"name": "jQuery Core Team",
