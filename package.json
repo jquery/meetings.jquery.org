@@ -1,27 +1,9 @@
 {
   "name": "meetings.jquery.org",
-  "title": "jQuery Meetings",
-  "description": "Calendar and minutes of public jQuery team meetings",
+  "private": true,
   "version": "0.0.1",
-  "homepage": "http://meetings.jquery.org/",
-  "author": {
-    "name": "jQuery Foundation (http://jquery.org/)"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jquery/meetings.jquery.org.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jquery/meetings.jquery.org/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
   "dependencies": {
     "grunt": "1.5.3",
-    "grunt-jquery-content": "3.1.0"
+    "grunt-jquery-content": "3.3.1"
   }
 }
